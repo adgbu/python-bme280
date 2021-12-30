@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "anvil_producer.py", line 47, in <module>
+    main()
+  File "anvil_producer.py", line 41, in main
+    anvil.server.call("insert_sensor_sample", json)
+  File "/home/gb/.cache/pypoetry/virtualenvs/bme280-Xbt17ez5-py3.7/lib/python3.7/site-packages/anvil/server.py", line 403, in call
+    return _do_call(args, kwargs, fn_name=fn_name)
+  File "/home/gb/.cache/pypoetry/virtualenvs/bme280-Xbt17ez5-py3.7/lib/python3.7/site-packages/anvil/server.py", line 395, in _do_call
+    return _threaded_server.do_call(args, kwargs, fn_name=fn_name, live_object=live_object)
+  File "/home/gb/.cache/pypoetry/virtualenvs/bme280-Xbt17ez5-py3.7/lib/python3.7/site-packages/anvil/_threaded_server.py", line 423, in do_call
+    raise error_from_server
+anvil._server.RuntimeUnavailableError: The downlink server disconnected
+

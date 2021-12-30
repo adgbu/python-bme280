@@ -13,6 +13,8 @@ homepage = "https://dev.mycrobase.de/gitea/cn/python-bme280"
 [tool.poetry.dependencies]
 python = "^3.7"
 smbus2 = "*"
+mpu6050-raspberrypi = "^1.2"
+anvil-uplink = "^0.3.41"
 
 [tool.poetry.dev-dependencies]
 mock = "*"
